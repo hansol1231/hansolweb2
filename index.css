@@ -1,0 +1,778 @@
+/* header */
+
+header{
+	margin: 0 auto;
+	background-color: white;
+	width: 100%;
+	border-bottom: 1px solid gray;
+}
+
+.main{
+	border: 0px solid black;
+	width: 1080px;
+	height: 250px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+.indexmain{
+	width: 1080px;
+	height: 180px;
+	display: table;
+	position: relative;
+	margin: 0 auto;
+}
+
+.logo{
+	margin: 0 auto;
+	flex: 0 0 69%;
+	position: absolute;
+	top: 50%;
+	left: 0%;
+}
+
+.indexmain .logo a{
+	font-size: 50px;
+	text-decoration: none;
+	color: skyblue;
+	vertical-align: middle;
+}
+
+.indexmain .logo a:hover{
+	color: black;
+}
+
+.indexmain input[type="search"]{
+	width: 430px;
+	height: 50px;
+	vertical-align: middle;
+}
+
+.indexmain button{
+	vertical-align: middle;
+}
+
+.indexmain .mainivent{
+	width: 29%;
+	position: absolute;
+	top: 15%;
+	right: 3%;
+	font-size: 25px;
+	text-align: right;
+}
+
+.indexmain .mainivent a{
+	text-decoration: none;
+	color: indianred;
+}
+
+.indexmain .mainivent a:hover{
+	color: skyblue;
+}
+
+.indexmain .mainivent img{
+	width: 65%;
+}
+
+.indexnav{
+	flex: 0 0 100%;
+	height: 70px;
+	width: 1080px;
+	margin: 0 auto;
+}
+
+.indexnav a:hover{
+	color: black;
+}
+
+.nav{
+	width: 100%;
+	border-top: 1px solid gray;
+}
+
+.indexnav nav{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.indexnav nav ul{
+	list-style: none;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.indexnav nav ul li a{
+	text-decoration: none;
+	font-size: 25px;
+	color: skyblue;
+	font-weight: bold;
+}
+
+/* header */ 
+
+/* body */
+
+body{
+	margin: 0 auto;
+	font-size: 100%;
+}
+
+.backbody{
+	height: 100%;
+	width: 1080px;
+	margin: 0 auto;
+}
+
+.background{
+	background-color: gainsboro;
+}
+
+.con1{
+	width: 100%;
+    display: flex;
+    height: 120px;
+    padding: 5px 0;
+    justify-content: center;
+}
+
+.con1 .banner{
+	border: 1px solid gray;;
+    margin-right: 5px;
+    background-color: white;
+    display: inline-block;
+    width: 687px;
+}
+
+.con1 .banner .bannerimg{
+	width: 100%;
+	height: 100%;
+}
+
+.con1 .banner .bannerimg img{
+	width: 686.5px;
+	height: 118px;
+}
+
+.con1 .login{
+    border: 1px solid gray;
+    background-color: white;
+    position: relative;
+    display: inline-block;
+    width: 384.29px;
+}
+
+.con1 .login p{
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 11px;
+	font-weight: bold;
+	color: gray;
+	margin: 0 auto;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+}
+
+.con1 .login .log{
+	text-decoration: none;
+	font-size: 25px;
+	background-color: skyblue;
+	color: white;
+	padding-right: 60px;
+	padding-left: 60px;
+	border-radius: 10px;
+	position: absolute;
+	top: 35%;
+	left: 10%;
+}
+
+.con1 .login .idpassword{
+	overflow: hidden;
+	position: absolute;
+	bottom: 10%;
+	left: 10%;
+}
+
+.con1 .login .idpassword a{
+	color: dimgrey;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.con1 .login .idpassword .spanspace{
+	padding-right: 90px;
+	border: 1px solid white;
+}
+
+.con2{
+    width: 100%;
+    display: flex;
+    height: 240px;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.con2 .news{
+    border: 1px solid gray;
+    margin-right: 5px;
+    background-color: white;
+    position: relative;
+    width: 64%;
+    display: inline-block;
+}
+
+.con2 .news .newsname{
+	margin-top: 0;
+	margin-bottom: 5px;;
+	text-align: center;
+	font-size: 35px;
+	color: dimgray;
+	border-bottom: 1px solid gray;
+}
+
+.con2 .news p img{
+	height: 50px;
+	vertical-align: bottom
+}
+
+.con2 .news .news-1{
+	display: flex;
+	justify-content: space-around;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.con2 .news .news-1 a img{
+	height: 85px;
+	border: 1px solid gray;
+	border-radius: 30px;
+}
+
+.con2 .news .news-2{
+	display: flex;
+	bottom: 0%;
+	justify-content: space-around;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.con2 .news .news-2 a img{
+	height: 85px;
+	border: 1px solid gray;
+	border-radius: 30px;
+}
+
+.con2-1{
+    margin: 0;
+    display: inline-block;
+    width: 36%;
+}
+
+.con2-1 .day{
+	border: 1px solid gray;
+	height: 116px;
+	margin-bottom: 5px;
+	background-color: white;
+}
+
+.con2-1 .ivent{
+	border: 1px solid gray;
+    height: 115px;
+    background-color: white;
+}
+
+.con2-1 .ivent img{
+	height: 115px;
+	width: 385px;
+}
+
+.con3{
+	width: 100%;
+	display: flex;
+	height: 720px;
+	justify-content: center;
+	margin-bottom: 5px;
+}
+
+.con3 .con3nav{
+    border: 1px solid gray;
+    height: 720px;
+    margin-right: 5px;
+    background-color: white;
+    width: 64%;
+    display: inline-block;
+}
+
+.con3 .con3nav .car{
+	margin-top: 0;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 35px;
+	color: dimgray;
+	border-bottom: 1px solid gray;
+}
+
+.con3 .con3nav .car img{
+	height: 50px;
+	vertical-align: bottom;
+}
+
+.con3 .con3nav .carreview{
+	overflow: hidden;
+	margin-right: 20px;
+	margin-left: 24px;
+}
+
+.con3 .con3nav .carreview .car-1 a,
+.con3 .con3nav .carreview .car-2 a,
+.con3 .con3nav .carreview .car-3 a,
+.con3 .con3nav .carreview .car-4 a,
+.con3 .con3nav .carreview .car-5 a{
+	text-decoration: none;
+	float: left;
+	border: 1px solid gray;
+	margin: 3px;
+	border-radius: 20px;
+	color: dimgray;
+}
+
+.con3 .con3nav .carreview .car-1 a .carname,
+.con3 .con3nav .carreview .car-2 a .carname,
+.con3 .con3nav .carreview .car-3 a .carname,
+.con3 .con3nav .carreview .car-4 a .carname,
+.con3 .con3nav .carreview .car-5 a .carname{
+	margin-bottom: 5px;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.con3 .con3nav .carreview .car-1 a img,
+.con3 .con3nav .carreview .car-2 a img,
+.con3 .con3nav .carreview .car-3 a img,
+.con3 .con3nav .carreview .car-4 a img,
+.con3 .con3nav .carreview .car-5 a img{
+	height: 70px;
+	width: 120px;
+	border-radius: 20px;
+}
+
+.con3-1{
+    height: 100%;
+    flex-wrap: wrap;
+    margin: 0;
+    width: 36%;
+    display: inline-block;
+}
+
+.con3-1 .shop-1{
+	border: 1px solid gray;
+	height: 356px;
+	margin-bottom: 5px;
+	background-color: white;
+}
+
+.con3-1 .shop-1 .shoping{
+	margin-top: 0;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 35px;
+	color: dimgray;
+	border-bottom: 1px solid gray;
+}
+
+.con3-1 .shop-1 .shoping img{
+	height: 50px;
+	vertical-align: bottom;
+}
+
+.con3-1 .shop-1 .shopicon1{
+	overflow: hidden;
+}
+
+.con3-1 .shop-1 .shopicon1 a{
+	float: left;
+	margin-left: 14px;
+	margin-right: 10px;
+	border: 1px solid gray;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 20px;
+	margin-bottom: 15px;
+	color: dimgray;
+}
+
+.con3-1 .shop-1 .shopicon1 img{
+	height: 100px;
+	width: 100px;
+	border-radius: 20px;
+}
+
+.con3-1 .shop-1 .shopicon2{
+	overflow: hidden;
+}
+
+.con3-1 .shop-1 .shopicon2 a{
+	float: left;
+	margin-left: 14px;
+	margin-right: 10px;
+	border: 1px solid gray;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 20px;
+	color: dimgray;
+}
+
+.con3-1 .shop-1 .shopicon2 img{
+	height: 100px;
+	width: 100px;
+	float: left;
+	border-radius: 20px;
+}
+
+.con3-1 .shop-2{
+	border: 1px solid gray;
+	height: 356px;
+	background-color: white;
+}
+
+.con3-1 .shop-2 .science img{
+	height: 50px;
+	vertical-align: bottom;
+}
+
+.con3-1 .shop-2 .science{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 35px;
+	color: dimgray;
+	border-bottom: 1px solid gray;
+}
+
+.con3-1 .shop-2 .scienceicon1{
+	overflow: hidden;
+}
+
+.con3-1 .shop-2 .scienceicon1 img{
+	height: 100px;
+	width: 125px;
+	float: left;
+	border-radius: 20px;
+}
+
+.con3-1 .shop-2 .scienceicon1 a{
+	float: left;
+	margin-left: 29px;
+	margin-right: 29px;
+	border: 1px solid gray;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 20px;
+	color: dimgray;
+	margin-bottom: 5px;
+	width: 125px;
+	padding: 3px;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+.con3-1 .shop-2 .scienceicon2{
+	overflow: hidden;
+}
+
+.con3-1 .shop-2 .scienceicon2 img{
+	height: 100px;
+	width: 100%;
+	float: left;
+	border-radius: 20px;
+}
+
+.con3-1 .shop-2 .scienceicon2 a{
+	float: left;
+	margin-left: 29px;
+	margin-right: 29px;
+	border: 1px solid gray;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 20px;
+	color: dimgray;
+	width: 125px;
+	padding: 3px;
+	font-size: 14px;
+}
+
+.con4{
+	width: 100%;
+	display: flex;
+	height: 180px;
+	justify-content: center;
+	margin-bottom: 5px;
+}
+
+.con4 .boivent{
+	border: 1px solid gray;
+    margin-right: 5px;
+    background-color: white;
+    overflow: hidden;
+    width: 686.73px;
+}
+
+.con4 .boivent .food-1{
+	width: 49%;
+	float: left;
+	transition: transform 0.1s ease-in;
+}
+
+.con4 .boivent .food-1:hover{
+	transform: scale(1.1);
+}
+
+.con4 .boivent .food-1 a{
+	overflow: hidden;
+	height: 178px;
+	color: dimgray;
+	width: 100%;
+}
+
+.con4 .boivent .food .food-1 a img{
+	height: 135px;
+	width: 120px;
+	margin: 20px;
+	border: 1px solid gray;
+	border-radius: 30px;
+}
+
+.con4 .boivent .food .food-1 a .moossam{
+	float: right;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.con4 .boivent .food-2{
+	width: 49%;
+	float: right;
+	transition: transform 0.1s ease-in;
+}
+
+.con4 .boivent .food-2:hover{
+	transform: scale(1.1);
+}
+
+.con4 .boivent .food-2 a{
+	overflow: hidden;
+	width: 100%;
+	height: 178px;
+	color: dimgray;
+}
+
+.con4 .boivent .food .food-2 a img{
+	height: 135px;
+	width: 120px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid gray;
+	border-radius: 30px;
+	margin-left: 20px;
+}
+
+.con4 .boivent .food .food-2 a .tuna{
+	float: right;
+	text-align: center;
+	padding-top: 40px;
+	padding-right: 20px;
+}
+
+.con4 .boivent2{
+	border: 1px solid gray;
+    background-color: white;
+    position: relative;
+    width: 384.29px;
+    display: inline-block;
+}
+
+.con4 .boivent2 .youtube{
+	border-bottom: 1px solid gray;
+	height: 30px;
+	width: 100%;
+	position: relative;
+	position: absolute;
+	padding-bottom: 10px;
+}
+
+.con4 .boivent2 .baek img{
+	width: 20%;
+	position: absolute;
+	top: 5px;
+	left: 25px;
+}
+
+.con4 .boivent2 .baek .cook{
+	text-align: center;
+	font-size: 18px;
+	color: dimgray;
+	position: absolute;
+	top: 8px;
+	right: 25px;
+}
+
+.con4 .boivent2 .baekimg a img{
+	width: 300px;
+	height: 120px;
+	position: absolute;
+	bottom: 9px;
+	left: 41px;
+	border-radius: 30px;
+}
+
+/* body */
+
+/* foot */
+
+footer{
+	margin: 0 auto;
+	background-color: white;
+}
+
+.foot1{
+	margin: 0 auto;
+	border-bottom: 1px solid gray;
+	border-top: 1px solid gray;
+	width: 100%;
+	font-size: 20px;
+	display: inline-block;
+}
+
+.foot1 .foot1-1{
+	width: 1080px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.foot1 .foot1-1 .help{
+	float: left;
+	padding: 20px 0 20px 40px;
+	color: dimgray;
+}
+
+.foot1 .foot1-1 .survice{
+	float: right;
+	padding: 20px 40px 20px 0;
+	color: dimgray;
+}
+
+.foot2{
+	margin: 0 auto;
+	border-bottom: 1px solid gray;
+	width: 100%;
+	height: 125px;
+	font-size: 20px;
+	display: inline-block;
+}
+
+.foot2 .foot2-1{
+	width: 1080px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.foot2 .foot2-1 .helper a{
+	text-decoration: none;
+	padding-left: 25px;
+	padding-right: 25px;
+	color: dimgray;
+	border-right: 1px solid gray;
+	display: inline-block;
+	width: 170px;
+	text-align: center;
+}
+
+.foot2 .foot2-1 .helper{
+	float: left;
+}
+
+.foot2 .foot2-1 .creators .bold{
+	font-weight: bold;
+	display: inline-block;
+	padding: 5px 40px 5px 40px;
+	color: dimgray;
+	width: 110px;
+}
+
+.foot2 .foot2-1 .partners .bold{
+	font-weight: bold;
+	display: inline-block;
+	padding: 5px 40px 5px 40px;
+	color: dimgray;
+	width: 110px;
+}
+
+.foot2 .foot2-1 .developers .bold{
+	font-weight: bold;
+	display: inline-block;
+	padding: 5px 40px 5px 40px;
+	color: dimgray;
+	width: 110px;
+}
+
+.foot2 .foot2-1-1{
+	float: right;
+	overflow: hidden;
+	margin-right: 40px;
+	height: 121px;
+}
+
+.foot2 .foot2-1-1 .phone{
+	float: left;
+}
+
+.foot2 .foot2-1-1 .phone img{
+	height: 120px;
+}
+
+.foot2 .foot2-1-1 .phonetext{
+	float: right;
+	color: dimgray;
+	text-align: center;
+	padding-top: 27px;
+	padding-bottom: 27px;
+	font-size: 25px;
+}
+
+.foot3{
+	margin: 0 auto;
+	border-bottom: 1px solid gray;
+	width: 100%;
+	height: 62px;
+	display: inline-block;
+}
+
+.foot3-1{
+	width: 1080px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.foot3-1 .last{
+	display: flex;
+	list-style: none;
+	justify-content: space-between
+}
+
+.foot3-1 .last a{
+	text-decoration: none;
+	color: dimgray;
+}
+
+.copy{
+	font-size: 20px;
+	font-weight: bold;
+	color: dimgray;
+	margin-left: 50px;
+}
+
+/* foot */
